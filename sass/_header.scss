@@ -7,15 +7,16 @@
     background-position: center;
     padding: 8rem;
     padding-top: 4rem;
+    padding-bottom: 5rem;
     display: grid;
-    grid-template-rows: 1fr min-content minmax(6rem,min-content) 1fr;
+    grid-template-rows: 1fr min-content minmax(5rem,min-content) 1fr;
     grid-template-columns: max-content;
     justify-content: center;
     grid-row-gap: 1.5rem;
     
 
     &__logo{
-        height: 3rem;
+        height: 2.8rem;
         justify-self: center;
     }
 
@@ -30,7 +31,7 @@
         grid-column-gap: 1.5rem;
         align-items: center;
 
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         color: $color-grey-light-2;
 
         &::before,
@@ -51,7 +52,7 @@
         align-items: center;
 
         img{
-            height: 2.5rem;
+            height: 1.8rem;
             max-width: 100%;
             filter: brightness(70%);   
         }
